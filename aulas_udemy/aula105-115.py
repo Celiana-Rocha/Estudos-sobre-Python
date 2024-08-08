@@ -74,57 +74,58 @@ podem ser alcançados.
 
 #SEGUNDO CONDIGO
 
-def number (*args):
-    multi = 1
-    for dig in args:
-        multi *= dig
-    return multi
+# def number (*args):
+#     multi = 1
+#     for dig in args:
+#         multi *= dig
+#     return multi
 
 
 
-result = number(1, 2, 3, 4)
-print(result)
-if result % 2 == 0:
-    print(f'the result is {result} and it is pair')
-else:
-    print(f'the result is {result} and it is odd')
+# result = number(1, 2, 3, 4)
+# print(result)
+# if result % 2 == 0:
+#     print(f'the result is {result} and it is pair')
+# else:
+#     print(f'the result is {result} and it is odd')
 
-print(1*2*3*4)
+# print(1*2*3*4)
 
-#CODIGO DA AULA___________________________________
+# #CODIGO DA AULA___________________________________
 
-# Exercícios com funções
+# # Exercícios com funções
 
-# Crie uma função que multiplica todos os argumentos
-# não nomeados recebidos
-# Retorne o total para uma variável e mostre o valor
-# da variável.
-def multiplicar(*args):
-    total = 1
-    for numero in args:
-        total *= numero
-    return total
-
-
-multiplicação = multiplicar(10, 2, 3, 4, 5)
-print(multiplicação)
+# # Crie uma função que multiplica todos os argumentos
+# # não nomeados recebidos
+# # Retorne o total para uma variável e mostre o valor
+# # da variável.
+# def multiplicar(*args):
+#     total = 1
+#     for numero in args:
+#         total *= numero
+#     return total
 
 
-# Crie uma função fala se um número é par ou ímpar.
-# Retorne se o número é par ou ímpar.
-def par_impar(numero):
-    multiplo_de_dois = numero % 2 == 0
-
-    if multiplo_de_dois:
-        return f'{numero} é par'
-    return f'{numero} é ímpar' #o else que ficaria aqui é redundonte, não precisaria estar aqui
+# multiplicação = multiplicar(10, 2, 3, 4, 5)
+# print(multiplicação)
 
 
-outro_par_impar = par_impar
-dois_e_par = outro_par_impar(2)
-print(dois_e_par)
-print(par_impar(3))
-print(par_impar(15))
-print(par_impar(16))
+# # Crie uma função fala se um número é par ou ímpar.
+# # Retorne se o número é par ou ímpar.
+# def par_impar(numero):
+#     multiplo_de_dois = numero % 2 == 0
 
-print(par_impar is outro_par_impar)
+#     if multiplo_de_dois:
+#         return f'{numero} é par'
+#     return f'{numero} é ímpar' #o else que ficaria aqui é redundonte, não precisaria estar aqui
+
+
+# outro_par_impar = par_impar
+# dois_e_par = outro_par_impar(2)
+# print(dois_e_par)
+# print(par_impar(3))
+# print(par_impar(15))
+# print(par_impar(16))
+
+# print(par_impar is outro_par_impar)
+
